@@ -10,7 +10,6 @@ jobs:
         uses: cypress-io/github-action@v5
       - name: Copy test execution videos
         run: |
-          mkdir public
           cp -r cypress/videos public/videos
       - name: Merge test results into one
         run: npm run report:merge
