@@ -12,5 +12,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: code-coverage-report
-          patch: cypress/report/html
+          path: cypress/report/html
         
